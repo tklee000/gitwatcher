@@ -1,0 +1,14 @@
+GitWatcher diff sample
+unchanged 01
+unchanged 02
+unchanged 03
+unchanged 04
+this line was newly added
+shared line
+setting = new-value
+unchanged 09
+unchanged 10
+unchanged 11
+unchanged 12
+one more line
+end
