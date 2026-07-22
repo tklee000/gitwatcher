@@ -61,6 +61,12 @@ The application is generated at `build\Release\GitWatcher.exe`.
 - Bursts of filesystem notifications are debounced for 250 ms before Git status is read again.
 - GitWatcher invokes `git rev-parse`, `git status`, and `git cat-file` as child processes.
 
+## Diff engine license
+
+The diff engine in [`src/DiffEngine.cpp`](src/DiffEngine.cpp) and [`src/DiffEngine.h`](src/DiffEngine.h) is GitWatcher project code: an independent implementation of Eugene W. Myers's O(ND) difference algorithm. It does not incorporate source code from an external diff library.
+
+Those two files are licensed under the [MIT License](LICENSES/MIT.txt). This MIT grant applies only to files carrying the `SPDX-License-Identifier: MIT` notice; it does not automatically apply to the rest of the repository.
+
 ## Third-party software and licensing
 
 GitWatcher does not bundle third-party source code or binary libraries. It links only to Windows system libraries and uses the C++ standard library supplied by the selected compiler toolchain.

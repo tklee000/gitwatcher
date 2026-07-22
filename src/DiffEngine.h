@@ -1,3 +1,9 @@
+// SPDX-License-Identifier: MIT
+// Copyright (c) 2026 tklee000
+//
+// This file is part of GitWatcher's independently implemented Myers diff
+// engine. It is licensed under the MIT License; see LICENSES/MIT.txt.
+
 #pragma once
 
 #include <cstddef>

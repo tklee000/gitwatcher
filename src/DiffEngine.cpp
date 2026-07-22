@@ -1,3 +1,10 @@
+// SPDX-License-Identifier: MIT
+// Copyright (c) 2026 tklee000
+//
+// This file is an independent implementation of Eugene W. Myers's O(ND)
+// difference algorithm. It is not derived from an external diff library.
+// See LICENSES/MIT.txt.
+
 #include "DiffEngine.h"
 
 #include <algorithm>
